@@ -1,0 +1,20 @@
+.task{
+    display: flex;
+    margin-bottom: 20px;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+}
+
+.task:hover{
+    transform: scale(1.05);
+    background-color: rgb(227, 221, 221);
+}
+
+.delete-btn{
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
